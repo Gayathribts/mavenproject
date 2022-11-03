@@ -38,8 +38,8 @@ pipeline
                 }*/
                 
             
-        }
-         stage('emailnotification'){
+        
+         /*stage('emailnotification'){
                 steps
                 {
                     emailext body: 'executing the build', recipientProviders: [buildUser()], subject: 'Build details', to: 'altopathi1975@gmail.com'
@@ -49,21 +49,13 @@ pipeline
                 
                 
             
-        }
-        
-        
-        
+        }*/
         
         
         
         
     }
+        
+        
+    }
     
-    
-    
-    
-    
-    
-    
-    
-}
